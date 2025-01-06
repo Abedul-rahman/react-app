@@ -1,0 +1,117 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    line-height: 3rem;
+    background-color: #ffffff; 
+    border: 1px solid #ddd;   
+    border-radius: 10px;       
+    padding: 20px 30px;        
+    box-shadow: 0 4px 8px #0000001a;
+    width: 90%;             
+    margin: 20px auto;      
+    max-width: 74rem; 
+}
+
+.form select {
+    align-items: center;
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    color: #333;
+}
+.form select:hover
+ {
+    border-color: #007bff;
+}
+
+.form select:focus 
+{
+    border-color: #007bff;
+    outline:none;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+}
+.form textarea {
+    resize: none; }
+
+.HallAttendance {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%; 
+    max-width: 74rem;
+    margin: 20px auto 0;
+    gap: 20px;
+}
+
+.Attendance1 {
+    padding: 20px 30px; 
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 48%; 
+    min-width: 300px; 
+}
+
+.HallAttendance table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.HallAttendance th, .HallAttendance td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #DDD;
+}
+
+
+
+.HallAttendance button {
+    background-color: #008077; 
+    color: white;              
+    border: none;             
+    padding: 10px 20px;         
+    border-radius: 5px;        
+    cursor: pointer;          
+    font-size: 16px;            
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.HallAttendance button:hover {
+    background-color: #00695c;  
+    transform: scale(1.05);
+}
+.HallAttendance input:hover
+ {
+    border-color: #02ad99;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+    .submit input[type="submit"] {
+        font-size:20px ;
+        background-color: #04AA6D;
+        border: none;
+        border-radius: 10px;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 50px 2px;
+        cursor: pointer;
+        font-weight: bold;
+}
+.submit input[type="submit"]:hover
+ {
+    background-color: #00695c;  
+    transform: scale(1.05);
+}
+.red{
+    background-color: rgb(184, 184, 184) !important;
+}
